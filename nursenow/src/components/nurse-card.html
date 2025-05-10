@@ -1,0 +1,12 @@
+Sure, here's the contents for the file `/nursenow/nursenow/src/components/nurse-card.html`:
+
+<div class="nurse-card">
+    <img src="{{nurse.image}}" alt="{{nurse.name}}" class="nurse-image">
+    <div class="card-content">
+        <h3 class="nurse-name">{{nurse.name}}</h3>
+        <p class="nurse-specialization">{{nurse.specialization}}</p>
+        <p class="nurse-experience">{{nurse.experience}} years experience</p>
+        <p class="nurse-rating">Rating: {{nurse.rating}} ⭐</p>
+        <button class="btn btn-primary book-btn" onclick="bookAppointment('{{nurse.id}}')">Book Appointment</button>
+    </div>
+</div>

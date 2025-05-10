@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Care - CareConnect</title>
+    <link rel="stylesheet" href="../css/find-care.css">
+    <script src="../js/find-care.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="glass-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-heartbeat"></i> CareConnect
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="#services">Services</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#testimonials">Testimonials</a>
+                <button class="btn btn-primary" id="loginBtn">Login</button>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find the Right Care for You</h1>
+            <p>Fill in the details below to find qualified nurses.</p>
+            <div class="search-card">
+                <form id="findCareForm">
+                    <div class="search-group">
+                        <div class="input-group">
+                            <input type="text" id="specialization" placeholder="Specialization" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="location" placeholder="Location" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="findCareBtn">Find Care</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="nurse-section">
+        <div class="section-header">
+            <h2>Available Nurses</h2>
+        </div>
+        <div class="nurse-grid" id="nurseList"></div>
+    </section>
+    <section class="nurse-section">
+        <div class="section-header">
+            <h2>Available Nurses</h2>
+            <div class="filter-group">
+                <span>Sort by:</span>
+                <select id="sortSelect">
+                    <option value="rating">Rating</option>
+                    <option value="experience">Experience</option>
+                </select>
+            </div>
+        </div>
+        <div class="nurse-card">
+            <div class="card-content">
+                <div class="name-box">
+                    <h3>Sarah Johnson <i class="fas fa-check-circle verified-badge"></i></h3>
+                </div>
+                <div class="rating">⭐⭐⭐⭐⭐ 4.8</div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <i class="fas fa-user-md"></i>
+                        <span>Critical Care</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>8 years experience</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span>New York</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Book Appointment</button>
+            </div>
+        </div>
+
+        <div class="nurse-card">
+            <div class="card-content">
+                <div class="name-box">
+                    <h3>Michael Chen <i class="fas fa-check-circle verified-badge"></i></h3>
+                </div>
+                <div class="rating">⭐⭐⭐⭐⭐ 4.7</div>
+                <div class="card-details">
+                    <div class="detail-item">
+                        <i class="fas fa-user-md"></i>
+                        <span>Pediatric Care</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-clock"></i>
+                        <span>6 years experience</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-location-dot"></i>
+                        <span>Boston</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary">Book Appointment</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div class="nurse-grid" id="nurseList">
+        <footer class="footer">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>CareConnect</h3>
+                    <p>Connecting patients with qualified healthcare professionals for personalized home care services.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html">Home</a>
+                        <a href="#services">Services</a>
+                        <a href="#how-it-works">How it works</a>
+                        <a href="#testimonials">Testimonials</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CareConnect. All rights reserved.</p>
+            </div>
+        </footer>
+</body>
+
+</html>
