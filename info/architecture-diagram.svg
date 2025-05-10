@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#264653">CareConnect System Architecture</text>
+  
+  <!-- Frontend Box -->
+  <rect x="50" y="80" width="700" height="150" fill="#e9ecef" stroke="#2A9D8F" stroke-width="2" rx="10" ry="10"/>
+  <text x="400" y="105" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#264653">Frontend (React)</text>
+  
+  <!-- Frontend Components -->
+  <rect x="80" y="120" width="120" height="80" fill="white" stroke="#2A9D8F" stroke-width="1" rx="5" ry="5"/>
+  <text x="140" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">User Interface</text>
+  <text x="140" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">React Components</text>
+  <text x="140" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">React Router</text>
+  
+  <rect x="230" y="120" width="120" height="80" fill="white" stroke="#2A9D8F" stroke-width="1" rx="5" ry="5"/>
+  <text x="290" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">State Management</text>
+  <text x="290" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Redux / Context</text>
+  <text x="290" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Firebase SDK</text>
+  
+  <rect x="380" y="120" width="120" height="80" fill="white" stroke="#2A9D8F" stroke-width="1" rx="5" ry="5"/>
+  <text x="440" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">API Integration</text>
+  <text x="440" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Axios / Fetch</text>
+  <text x="440" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Firebase Hooks</text>
+  
+  <rect x="530" y="120" width="190" height="80" fill="white" stroke="#2A9D8F" stroke-width="1" rx="5" ry="5"/>
+  <text x="625" y="145" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">AI Chat Integration</text>
+  <text x="625" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">WebSocket for Ollama</text>
+  <text x="625" y="185" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Chat UI Components</text>
+  
+  <!-- Backend Box -->
+  <rect x="50" y="250" width="700" height="150" fill="#e9ecef" stroke="#264653" stroke-width="2" rx="10" ry="10"/>
+  <text x="400" y="275" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#264653">Backend (Node.js)</text>
+  
+  <!-- Backend Components -->
+  <rect x="80" y="290" width="120" height="80" fill="white" stroke="#264653" stroke-width="1" rx="5" ry="5"/>
+  <text x="140" y="315" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">Express Server</text>
+  <text x="140" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">RESTful APIs</text>
+  <text x="140" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Middleware</text>
+  
+  <rect x="230" y="290" width="120" height="80" fill="white" stroke="#264653" stroke-width="1" rx="5" ry="5"/>
+  <text x="290" y="315" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">Firebase Admin</text>
+  <text x="290" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Authentication</text>
+  <text x="290" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Firestore Access</text>
+  
+  <rect x="380" y="290" width="120" height="80" fill="white" stroke="#264653" stroke-width="1" rx="5" ry="5"/>
+  <text x="440" y="315" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">ML Services</text>
+  <text x="440" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Recommendation</text>
+  <text x="440" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Matching Engine</text>
+  
+  <rect x="530" y="290" width="190" height="80" fill="white" stroke="#264653" stroke-width="1" rx="5" ry="5"/>
+  <text x="625" y="315" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#264653">Ollama Integration</text>
+  <text x="625" y="335" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">API Proxy</text>
+  <text x="625" y="355" font-family="Arial" font-size="12" text-anchor="middle" fill="#264653">Chat Context Management</text>
+  
+  <!-- Database Box -->
+  <rect x="50" y="420" width="700" height="60" fill="#e9ecef" stroke="#E9C46A" stroke-width="2" rx="10" ry="10"/>
+  <text x="400" y="455" font-family="Arial" font-size="18" font-weight="bold" text-anchor="middle" fill="#264653">Firebase (Authentication, Firestore, Storage)</text>
+  
+  <!-- Connections -->
+  <line x1="140" y1="200" x2="140" y2="290" stroke="#264653" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="290" y1="200" x2="290" y2="290" stroke="#264653" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="440" y1="200" x2="440" y2="290" stroke="#264653" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="625" y1="200" x2="625" y2="290" stroke="#264653" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <line x1="140" y1="370" x2="140" y2="420" stroke="#E9C46A" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="290" y1="370" x2="290" y2="420" stroke="#E9C46A" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <line x1="440" y1="370" x2="440" y2="420" stroke="#E9C46A" stroke-width="1.5" stroke-dasharray="5,5"/>
+</svg>
